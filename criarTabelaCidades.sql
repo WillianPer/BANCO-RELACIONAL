@@ -1,4 +1,4 @@
-create table if not exists cidade (
+create table if not exists cidades (
     id INT UNSIGNED not null AUTO_INCREMENT,
     nome varchar(255) not null,
     estado_id INT UNSIGNED not null,
